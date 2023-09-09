@@ -73,6 +73,15 @@ body .content-container .user-container .user-img img {
   max-width: 100%;
   object-fit: cover;
 }
+body .content-container .user-container .user-img, body .content-container .user-container .img-loading {
+  height: 40px;
+  width: 40px;
+  background: white;
+  background: linear-gradient(90deg, rgba(225, 225, 225, 0.9) 8%, rgba(192, 192, 192, 0.7098039216) 18%, rgba(225, 225, 225, 0.9) 33%);
+  background-size: 200% 100%;
+  border-radius: 50%;
+  animation: 1s shine linear infinite;
+}
 body .content-container .user-container .user-info {
   display: flex;
   flex-direction: column;
@@ -88,6 +97,15 @@ body .content-container .user-container .user-info h3 {
   font-weight: lighter;
   margin: 5 0 0 0;
   padding-left: 10px;
+}
+body .content-container .user-container .user-info .info-loading {
+  margin: 7 0 0 10;
+  height: 10px;
+  width: 50px;
+  background: white;
+  background: linear-gradient(90deg, rgba(225, 225, 225, 0.9) 8%, rgba(192, 192, 192, 0.7098039216) 18%, rgba(225, 225, 225, 0.9) 33%);
+  background-size: 200% 100%;
+  animation: 1s shine linear infinite;
 }
 @keyframes shine {
   to {

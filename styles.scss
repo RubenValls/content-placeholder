@@ -82,6 +82,16 @@ body{
                 }
             }
 
+            .user-img,.img-loading{
+                height: 40px;
+                width: 40px;
+                background: white;
+                background: linear-gradient(90deg, rgba(225, 225, 225, 0.9) 8%, #c0c0c0b5 18%, rgb(225, 225, 225, 0.9) 33%);
+                background-size: 200% 100%;
+                border-radius: 50%;
+                animation: 1s shine linear infinite;
+            }
+
             .user-info{
                 display: flex;
                 flex-direction: column;
@@ -98,6 +108,16 @@ body{
                     font-weight: lighter;
                     margin: 5 0 0 0;
                     padding-left: 10px;
+                }
+
+                .info-loading{
+                    margin: 7 0 0 10;
+                    height: 10px;
+                    width: 50px;
+                    background: white;
+                    background: linear-gradient(90deg, rgba(225, 225, 225, 0.9) 8%, #c0c0c0b5 18%, rgb(225, 225, 225, 0.9) 33%);
+                    background-size: 200% 100%;
+                    animation: 1s shine linear infinite;
                 }
             }
         }

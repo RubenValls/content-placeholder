@@ -8,4 +8,4 @@ const loadData = () => {
     userContainer.innerHTML = '<div class="user-img"><img src="https://randomuser.me/api/portraits/men/29.jpg" alt=""></div><div class="user-info"><h2>John Doe</h2><h3>Sept 09, 2023</h3></div>'
 }
 
-setTimeout(loadData, 2000)
+setTimeout(loadData, 3000)
