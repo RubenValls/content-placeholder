@@ -12,7 +12,7 @@ body .content-container {
   justify-content: baseline;
   align-items: center;
   margin: auto;
-  height: 350px;
+  height: 375px;
   width: 300px;
   border-radius: 10px;
   box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.5);
@@ -27,7 +27,7 @@ body .content-container .img-container img {
   object-fit: cover;
 }
 body .content-container .text-container {
-  margin-top: 40px;
+  margin-top: 45px;
   max-width: 80%;
 }
 body .content-container .text-container h1 {
@@ -37,6 +37,40 @@ body .content-container .text-container h3 {
   font-size: 12px;
   color: #777777;
   font-weight: lighter;
+}
+body .content-container .user-container {
+  max-width: 80%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: auto auto auto 30px;
+}
+body .content-container .user-container .user-img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+body .content-container .user-container .user-img img {
+  max-width: 100%;
+  object-fit: cover;
+}
+body .content-container .user-container .user-info {
+  display: flex;
+  flex-direction: column;
+}
+body .content-container .user-container .user-info h2 {
+  font-size: 15px;
+  margin: 0;
+  padding-left: 10px;
+}
+body .content-container .user-container .user-info h3 {
+  font-size: 11px;
+  color: #777777;
+  font-weight: lighter;
+  margin: 5 0 0 0;
+  padding-left: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */
